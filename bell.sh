@@ -1,3 +1,3 @@
 #!/bin/sh
-python /home/pi/bell.py
+python /home/pi/doorbell/bell.py
 

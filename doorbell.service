@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=pi
 WorkingDirectory=/home/pi/doorbell
-ExecStart=/usr/bin/python -u /home/pi/doorbell/doorbell.py
+ExecStart=/usr/bin/python -u /home/pi/doorbell/bell.py
 Restart=always
 RestartSec=5
 
